@@ -1,0 +1,100 @@
+body 
+{
+  font-size: 16px;
+}
+
+#nav-header
+{
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;  
+  background-color: #3BAFDA;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 22px;
+}
+.navbar-brand h1 
+{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/*   hamburger icon  */
+.navbar-header button.navbar-toggle{
+  border: 2px solid white;
+}
+.navbar-header .icon-bar 
+{
+  border: 3px solid white;
+  width: 30px;
+  border-radius: 2px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+.navbar-header button.navbar-toggle:focus,.navbar-header button.navbar-toggle:focus .icon-bar
+{
+  border-color: purple;
+}
+#nav-header #collapsable-nav
+{
+  padding-top: 0;
+}
+.navbar-nav
+{
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+#nav-list li
+{
+  border: 1px solid white;
+}
+
+#nav-header #collapsable-nav #nav-list a
+{
+  color:white;
+}
+
+#main-content
+{
+  width: 100%;
+}
+
+#main-content h1
+{
+  color: #3BAFDA;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+.section
+{
+  background-color: #459771;
+  padding: 20px;
+  color: white;
+}
+
+@media screen and (min-width: 768px)
+{
+  #nav-header
+  {
+    height: 70px;
+  }
+  #nav-header #collapsable-nav #nav-list
+  {
+    display: none;
+  }
+}
